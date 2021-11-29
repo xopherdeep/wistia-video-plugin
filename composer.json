@@ -1,0 +1,12 @@
+{
+    "name": "xophz/wistia-video-plugin",
+    "description": "Simple wistia plugin that only allows the first minute of the video to play for anonymous users",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "xopherdeep",
+            "email": "cdpollard@gmail.com"
+        }
+    ],
+    "require": {}
+}
