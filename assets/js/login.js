@@ -24,8 +24,8 @@
        */
       video.bind("secondchange", function() {
         // this should be another call to really valid login
-        if (video.secondsWatched() >= 6 && !user.is_logged_in() ) {
-          video.pause().time(5);
+        if (video.secondsWatched() >= 60 && !user.is_logged_in() ) {
+          video.pause().time(59);
           $('#loginModal').modal('show')
         }
       });
